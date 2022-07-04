@@ -9,6 +9,7 @@
 		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/projecten.css">
+		<link rel="stylesheet" href="./css/footercss.css">
 	</head>
 	<body>
 

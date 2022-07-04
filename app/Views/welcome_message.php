@@ -200,8 +200,59 @@
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <?= $this->section('footer') ?>
+<p>D'Lab is de plek voor het ontwikkelen van innovative oplossingen. Door de centrale locatie in het centrum van de stad en midden tussen een variëteit van complementaire bedrijven is dit de ideale plek voor het maken van slimme protoypes.</p>
 
-	<?= $this->endSection('footer') ?>
+<div class="Info_Container">
+	<h3>Informatie</h3>
+	<ul class="list list-6" id="list">
+		<li>
+			<a href="#projects">Onze Projecten</a>
+		</li>
+		<li>
+			<a href="#services">Onze Diensten</a>
+		</li>
+		<li>
+			<a href="#about">Over Ons</a>
+		</li>
+		<li>
+			<a href="#news">Laatste nieuws</a>
+		</li>
+		<li>
+			<a href="#services">Reserveren</a>
+		</li>
+	</ul>
+</div>
+<img src="imgs/logo-white.png" id="logo">
+<div class="widget-item">
+	<div class="widget-body">
+		<div class="widget-title">
+			<h3>D'Lab locatie</h3>
+		</div>
+		<div class="widget-body">
+			<div class="office-info">
+				<p>
+					<i class="fa fa-map-marker"></i>
+					Blokhuisplein 40, Leeuwarden, Nederland
+				</p>
+				<p>
+					<i class="fa fa-phone"></i>
+						+31-6-25426731
+				</p>
+				<p>
+					<i class="fa fa-envelope-o"></i>
+					info@dlab.nl
+				</p>
+				<p>
+					<i class="fa fa-clock-o"></i>
+					Ma - Vr: 9:00 - 16:00
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<p id="footertext">© Copyright 2019 D'Lab.</p>
+<?= $this->endSection('footer') ?>
 
 <!-- SCRIPTS -->
 

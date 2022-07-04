@@ -5,7 +5,7 @@
 <?= $this->section('header') ?>
 
 <div class="header">
-            <a href="#default" class="logo"><img src="./imgs/DLab_Logo_FC100.png"></a>
+            <a href="#default" class="logo"><img id="logo" src="./imgs/DLab_Logo_FC100.png"></a>
             <div class="header-right">
               <a class="active" href="#home">Home</a>
               <a href="#projecten">Projecten</a>
@@ -192,6 +192,30 @@
             <li><a href="#Laser">Laser</a></li>
         </ul>
     </div>
+
+
+	<div class="project-photos">
+		<img src="./imgs/project-h1-01.jpg" alt="01">
+		<img src="./imgs/project-h1-02.jpg" alt="02">
+		<img src="./imgs/project-h1-03.jpg" alt="03">
+		<img src="./imgs/project-h1-04.jpg" alt="04">
+		<img src="./imgs/project-h1-05.jpg" alt="05">
+		<img src="./imgs/project-h1-06.jpg" alt="06">
+		<img src="./imgs/project-h1-07.jpg" alt="07">
+	</div>
+
+
+	<div class="Dlab-info">
+		<img id="aboutimg" src="./imgs/about-1.jpg" alt="about1">
+		<h1>D'Lab</h1>
+
+		<hr>
+
+		<p id="infotext">D'Lab is een fablab, ook wel maaklab genoemd, waar zowel bedrijven als particulieren als wel studenten terecht kunnen voor het ontwikkelen van allerlei soorten prototypes.
+		<br> <br>
+		Het D'Lab is onderdeel van het Friesland College maar werkt ook nauw samen met de Frisian Design Factory (onderdeel van NHL/Stenden).
+		</p>
+	</div>
    
 <?= $this->endSection('twosection') ?>
 

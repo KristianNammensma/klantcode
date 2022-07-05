@@ -221,6 +221,13 @@
    
 <?= $this->endSection('twosection') ?>
 
+<?= $this->Section('threesection') ?>
+	<div class="section-title-wrap mb-30">
+			<h1>Ervaringen van anderen</h1>
+			<hr>
+		</div>
+<?= $this->endSection('threesection') ?>
+
 <?= $this->endSection('main') ?>
 
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->

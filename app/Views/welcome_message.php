@@ -8,11 +8,11 @@
             <a href="#default" class="logo"><img src="./imgs/DLab_Logo_FC100.png"></a>
             <div class="header-right">
               <a class="active" href="#home">Home</a>
-              <a href="#projecten">Projecten</a>
-              <a href="#onze diensten">Onze Diensten</a>
-              <a href="#over ons">Over ons</a>
-              <a href="#nieuws">Nieuws</a>
-              <a href="#contact">Contact</a>
+              <a id="Projecten" href="#projecten">Projecten</a>
+              <a id="Diensten" href="#onze diensten">Onze Diensten</a>
+              <a id="OverOns" href="#over ons">Over ons</a>
+              <a id="Nieuws" href="#nieuws">Nieuws</a>
+              <a id="Contact" href="#contact">Contact</a>
               <ul>
                 <li>
                     <a class="fa fa-phone" href="tel:+31-6-254-26-731"> <span id="phone-text">+31-6-25426731</span> </a>
@@ -206,19 +206,19 @@
 	<h3>Informatie</h3>
 	<ul class="list list-6" id="list">
 		<li>
-			<a href="#projects">Onze Projecten</a>
+			<a href="#projects">> Onze Projecten</a>
 		</li>
 		<li>
-			<a href="#services">Onze Diensten</a>
+			<a href="#services">> Onze Diensten</a>
 		</li>
 		<li>
-			<a href="#about">Over Ons</a>
+			<a href="#about">> Over Ons</a>
 		</li>
 		<li>
-			<a href="#news">Laatste nieuws</a>
+			<a href="#news">> Laatste nieuws</a>
 		</li>
 		<li>
-			<a href="#services">Reserveren</a>
+			<a href="#services">> Reserveren</a>
 		</li>
 	</ul>
 </div>
@@ -255,7 +255,9 @@
 <?= $this->endSection('footer') ?>
 
 <!-- SCRIPTS -->
-
+<?= $this->section('script') ?>
+<script src="./JS/scroll.js"></script>
+<?= $this->endSection('script') ?>
 
 
 <!-- -->

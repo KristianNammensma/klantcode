@@ -45,5 +45,6 @@
 		<?= $this->renderSection('footer') ?> 	
 
 		</footer>
+		<?= $this->renderSection('script') ?> 	
 	</body>
 </html>

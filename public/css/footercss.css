@@ -11,9 +11,10 @@ footer {
     text-align: center;
 }
 
-.list {
+#list {
     display: flex;
     justify-content: center;
+    color: white;
 }
 #logo {
     position: absolute;

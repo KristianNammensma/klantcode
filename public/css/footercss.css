@@ -1,0 +1,25 @@
+footer {
+    color: white;
+    background-color: rgb(69, 69, 69);
+}
+.office-info,
+.widget-title {
+    display: flex;
+    justify-content: center;
+}
+#footertext {
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#logo {
+    position: absolute;
+}
+
+.Info_Container {
+    text-align: center;
+}

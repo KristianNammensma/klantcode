@@ -9,7 +9,11 @@
 		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/projecten.css">
+<<<<<<< HEAD
 		<link rel="stylesheet" href="./css/Ervaringen.css">
+=======
+		<link rel="stylesheet" href="./css/footercss.css">
+>>>>>>> 3db45c5a97f3b6b174c5fbabfa73a43025b0b1ab
 	</head>
 	<body>
 
@@ -49,5 +53,6 @@
 		<?= $this->renderSection('footer') ?> 	
 
 		</footer>
+		<?= $this->renderSection('script') ?> 	
 	</body>
 </html>

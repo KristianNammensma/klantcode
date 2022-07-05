@@ -1,4 +1,7 @@
 footer {
+    position: absolute;
+    top: 300vh;
+    width: 99vw;
     color: white;
     background-color: rgb(69, 69, 69);
 }
@@ -16,9 +19,7 @@ footer {
     justify-content: center;
     color: white;
 }
-#logo {
-    position: absolute;
-}
+
 
 .Info_Container {
     text-align: center;

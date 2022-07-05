@@ -214,6 +214,8 @@
 		<p id="infotext">D'Lab is een fablab, ook wel maaklab genoemd, waar zowel bedrijven als particulieren als wel studenten terecht kunnen voor het ontwikkelen van allerlei soorten prototypes.
 		<br> <br>
 		Het D'Lab is onderdeel van het Friesland College maar werkt ook nauw samen met de Frisian Design Factory (onderdeel van NHL/Stenden).
+		<br> <br>
+		<a id="Meer-a" href="">Meer..</a>
 		</p>
 	</div>
    

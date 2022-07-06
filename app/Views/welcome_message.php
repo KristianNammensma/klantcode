@@ -276,7 +276,30 @@
 
 <?= $this->endSection('main') ?>
 
-<!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
+<?= $this->section('nieuws') ?>
+<section class="containernieuws">
+	<div class="row">
+		<img src="./imgs/post-01.jpg">
+		<div class="background">
+			<h1>Expositie Valencia</h1>
+			<p>In de eerste week van april vindt er een expositie plaats in Valencia waar ook stukken van onze studenten worden tentoongesteld</p>
+			<button>
+				Lees meer
+			</button>
+		</div>
+	</div>
+	<div class="row">
+		<img src="./imgs/post-02.jpg">
+		<div class="background">
+			<h1>Circulair Plastic Hub</h1>
+			<p>Het D'Lab gaat zich samen met verschillende partners inzetten voor het ontwikkelen van productiemethodes o.b.v. gerecycled plastic.</p>
+			<button>
+				Lees meer
+			</button>
+		</div>
+	</div>
+</section>
+<?= $this->endSection('nieuws') ?>
 
 <?= $this->section('footer') ?>
 <p>D'Lab is de plek voor het ontwikkelen van innovative oplossingen. Door de centrale locatie in het centrum van de stad en midden tussen een variëteit van complementaire bedrijven is dit de ideale plek voor het maken van slimme protoypes.</p>

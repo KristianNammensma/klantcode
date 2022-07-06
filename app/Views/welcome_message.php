@@ -40,11 +40,18 @@
 
 			</div>
 
+
 <?= $this->endSection('header') ?>
 
 <!-- CONTENT -->
 
 <?= $this->section('main') ?>
+
+<?= $this->section('img') ?>
+	<div class="header-photo">
+		<img id="header-img" src="./imgs/slider-01-02-bg.jpg" alt="">
+	</div>
+<?= $this->endSection('img') ?>
 
 <?= $this->section('onesection') ?>
 
@@ -238,6 +245,30 @@
 			<div class="client-info">
 				<p id="name">Mr. Frank</p>
 				<p id="extra">noSpoon</p>
+			</div>
+		</div>
+
+		<div id="quote-2">
+				<p>“Ik word altijd erg goed geholpen door de mensen in het D'Lab”</p>
+		</div>
+
+		<div id="client-2">
+			<figure id="client-pfp"></figure>
+			<div class="client-info">
+				<p id="name">Mr. Hans</p>
+				<p id="extra">Floqr</p>
+			</div>
+		</div>
+
+		<div id="quote-3">
+				<p>“Ik kon meteen de markt op met mijn prototype!”</p>
+		</div>
+
+		<div id="client-3">
+			<figure id="client-pfp"></figure>
+			<div class="client-info">
+				<p id="name">Mr. Kroondijk</p>
+				<p id="extra">Friesland College</p>
 			</div>
 		</div>
 	</div>

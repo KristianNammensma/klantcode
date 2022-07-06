@@ -120,6 +120,15 @@ ul {
     font-size: 3vh;
 }
 
+.header-photo{
+    position: relative;
+}
+
+#header-img{
+    position: relative;
+    width: 100vw;
+}
+
 .diensten{
     display: flex;
     justify-content: center;

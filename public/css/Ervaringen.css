@@ -33,36 +33,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 10vh;
+    top: 6vh;
 }
 
-#quote-1{
+#quote-1,
+#quote-2,
+#quote-3{
     background-color: white;
     width: 15vw;
     padding: 10px;
 }
 
-#quote-1:after {
+#quote-1:after,
+#quote-2:after,
+#quote-3:after{
 	content: '';
 	position: absolute;
 	bottom: 0;
-	left: 50%;
 	width: 0;
 	height: 0;
 	border: 32px solid transparent;
 	border-top-color: #ffffff;
 	border-bottom: 0;
-	border-left: 0;
-	margin-left: 0px;
+	margin-left: 100px;
 	margin-bottom: -20px;
 }
 
-#client-1{
+#client-1,
+#client-2,
+#client-3{
     position: relative;
     display: flex;
     flex-direction: row;
     color: white;
-    top: 12vh;
+    top: 14vh;
     right: 15vw;
 }
 #client-pfp{

@@ -49,18 +49,21 @@ img{
 
 .Dlab-info{
     position: relative;
-    top: 65vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    top: 40vh;
     height: 14vh;
 }   
 
 #aboutimg{
-    position: absolute; 
+    position: relative; 
     left: 30vw;
-    top: 8vh;
+    top: 32vh;
+    width: 22vw;
 }
 
 #infotext{
-    position: absolute; 
+    position: relative; 
     left: 55vw;
     width: 20vw;
     padding: 10px;

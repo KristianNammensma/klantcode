@@ -9,6 +9,7 @@
 		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/projecten.css">
+		<link rel="stylesheet" href="./css/Ervaringen.css">
 		<link rel="stylesheet" href="./css/footercss.css">
 	</head>
 	<body>
@@ -31,6 +32,10 @@
 			<header class="projecten">
 				<?= $this->renderSection('twosection') ?> 	
 			</header>
+
+			<section class="Ervaringen">
+				<?= $this->renderSection('threesection') ?> 	
+			</section>
 		</main>
 		
 		<footer>			

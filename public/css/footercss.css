@@ -27,24 +27,26 @@ footer {
 
 .containernieuws {
     display: flex;
+    position: relative;
+    top: 130vh;
 }
 
 .row {
     display: flex;
     flex-direction: column;
 }
-.background {
+/* .background {
     background-color: #343434;
     color: #fff;
     padding: 25px 20px 40px;
     position: relative;
     margin-top: 10px;
     margin-bottom: 23px;
-}
+} */
 
 
 .containernieuws h1 {
-    color: #fa9a00
+    color: #fa9a00;
 }
 
 .background {
@@ -55,9 +57,9 @@ footer {
 
 .background:after {
 	content: '';
-	position: absolute;
-	top: 0;
-	width: 0;
+	position: absolute; 
+    top: 0;
+	width: 0px;
 	height: 0;
 	border: 19px solid transparent;
 	border-bottom-color: #616161;

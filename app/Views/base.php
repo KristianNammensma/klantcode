@@ -37,7 +37,7 @@
 				<?= $this->renderSection('threesection') ?> 	
 			</section>
 
-			<?= $this->renderSection('footer') ?> 	
+			<?= $this->renderSection('nieuws') ?> 	
 		</main>
 		
 		<footer>			
@@ -46,11 +46,8 @@
 				<p>Page rendered in {elapsed_time} seconds</p>
 
 				<p>Environment: <?= ENVIRONMENT ?></p>
-
-			</div>
-
-		<?= $this->renderSection('footer') ?> 	
-
+				<?= $this->renderSection('footer') ?> 
+			</div>	
 		</footer>
 		<?= $this->renderSection('script') ?> 	
 	</body>

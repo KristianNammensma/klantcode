@@ -247,19 +247,23 @@
 
 <?= $this->section('nieuws') ?>
 <section class="containernieuws">
-	<div class="nieuws1">
+	<div class="row">
 		<img src="./imgs/post-01.jpg">
 		<div class="background">
+			<h1>Expositie Valencia</h1>
+			<p>In de eerste week van april vindt er een expositie plaats in Valencia waar ook stukken van onze studenten worden tentoongesteld</p>
 			<button>
-				
+				Lees meer
 			</button>
 		</div>
 	</div>
-	<div class="nieuws2">
+	<div class="row">
 		<img src="./imgs/post-02.jpg">
 		<div class="background">
+			<h1>Circulair Plastic Hub</h1>
+			<p>Het D'Lab gaat zich samen met verschillende partners inzetten voor het ontwikkelen van productiemethodes o.b.v. gerecycled plastic.</p>
 			<button>
-				
+				Lees meer
 			</button>
 		</div>
 	</div>

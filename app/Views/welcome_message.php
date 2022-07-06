@@ -222,10 +222,25 @@
 <?= $this->endSection('twosection') ?>
 
 <?= $this->Section('threesection') ?>
-	<div class="section-title-wrap mb-30">
-			<h1>Ervaringen van anderen</h1>
-			<hr>
+	<div id="ervaring-top">
+		<hr>
+		<h1 id="ervaringtext">Ervaringen van anderen</h1>
+		<hr>
+	</div>
+
+	<div class="ervaring-inhoud">
+		<div id="quote-1">
+				<p>“Het D'Lab stelt je in staat om volledig 'out of the box' te denken”</p>
 		</div>
+
+		<div id="client-1">
+			<figure id="client-pfp"></figure>
+			<div class="client-info">
+				<p id="name">Mr. Frank</p>
+				<p id="extra">noSpoon</p>
+			</div>
+		</div>
+	</div>
 <?= $this->endSection('threesection') ?>
 
 <?= $this->endSection('main') ?>

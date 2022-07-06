@@ -223,8 +223,6 @@
 
 <?= $this->endSection('main') ?>
 
-<!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
-
 <?= $this->section('footer') ?>
 <p>D'Lab is de plek voor het ontwikkelen van innovative oplossingen. Door de centrale locatie in het centrum van de stad en midden tussen een variëteit van complementaire bedrijven is dit de ideale plek voor het maken van slimme protoypes.</p>
 

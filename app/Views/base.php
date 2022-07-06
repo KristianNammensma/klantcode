@@ -18,10 +18,13 @@
 		<header>
 
 			<?= $this->renderSection('header') ?> 	
+
 		</header>
 
 
 		<main>
+			<?= $this->renderSection('img') ?> 	
+			
 			<?= $this->renderSection('main') ?> 	
 			
 			<section class="diensten">

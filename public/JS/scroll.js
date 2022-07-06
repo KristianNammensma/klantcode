@@ -7,5 +7,5 @@ var contact = document.getElementById('Contact');
 projecten.addEventListener('click', scrollFunction);
 
 function scrollFunction() {
-    document.documentElement.scrollTop = 50;
+    document.documentElement.scrollTop = 1300;
   }

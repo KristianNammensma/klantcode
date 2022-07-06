@@ -24,3 +24,12 @@ footer {
 .Info_Container {
     text-align: center;
 }
+
+.background {
+    background-color: #343434;
+    color: #fff;
+    padding: 25px 20px 40px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}

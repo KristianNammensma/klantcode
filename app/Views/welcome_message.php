@@ -230,6 +230,27 @@
 
 <?= $this->endSection('main') ?>
 
+<?= $this->section('nieuws') ?>
+<section class="containernieuws">
+	<div class="nieuws1">
+		<img src="./imgs/post-01.jpg">
+		<div class="background">
+			<button>
+				
+			</button>
+		</div>
+	</div>
+	<div class="nieuws2">
+		<img src="./imgs/post-02.jpg">
+		<div class="background">
+			<button>
+				
+			</button>
+		</div>
+	</div>
+</section>
+<?= $this->endSection('nieuws') ?>
+
 <?= $this->section('footer') ?>
 <p>D'Lab is de plek voor het ontwikkelen van innovative oplossingen. Door de centrale locatie in het centrum van de stad en midden tussen een variëteit van complementaire bedrijven is dit de ideale plek voor het maken van slimme protoypes.</p>
 

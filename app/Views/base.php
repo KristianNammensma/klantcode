@@ -36,6 +36,8 @@
 			<section class="Ervaringen">
 				<?= $this->renderSection('threesection') ?> 	
 			</section>
+
+			<?= $this->renderSection('footer') ?> 	
 		</main>
 		
 		<footer>			

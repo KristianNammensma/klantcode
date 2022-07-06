@@ -63,8 +63,8 @@
 	<hr>
 
 	<div class="navigation">
-		<button id="left-b"><i class="fa fa-angle-left"></i></button>
-		<button id="right-b"><i class="fa fa-angle-right"></i></button>
+		<button onclick="lb()" id="left-b"><i class="fa fa-angle-left"></i></button>
+		<button onclick="rb()" id="right-b"><i class="fa fa-angle-right"></i></button>
 	</div>
 </div>
 
@@ -359,6 +359,7 @@
 <!-- SCRIPTS -->
 <?= $this->section('script') ?>
 <script src="./JS/scroll.js"></script>
+<script src="./JS/Diensten.js"></script>
 <?= $this->endSection('script') ?>
 
 

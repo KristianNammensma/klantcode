@@ -218,6 +218,7 @@ hr{
     position: absolute;
     top: 2vh;
     left: 68vw;
+    max-width: 15vw;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(196, 191, 191);

@@ -19,7 +19,13 @@ footer {
     justify-content: center;
     color: white;
 }
-
+.nieuws-top{
+    position: relative;
+    top: 130vh;
+}
+#nieuws-title{
+    color: #fa9a00;
+}
 
 .Info_Container {
     text-align: center;

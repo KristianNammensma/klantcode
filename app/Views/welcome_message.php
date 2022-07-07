@@ -73,16 +73,16 @@
 
 		<div id="img1">
 			<img id="service-01" src="./imgs/service-01.jpg">
-			<h1>3D Printen - Objet30 Prime</h1>
+			<h1 id="scrolltitle1">3D Printen - Objet30 Prime</h1>
 
-			<p>Deze hoogwaardige 3D printer print de fijnste ontwerpen in hoog detail. Het ondersteunende materiaal is wateroplosbaar en daardoor eenvoudig en zonder 'littekens' te verwijderen.</p>
+			<p id="scrolltext1">Deze hoogwaardige 3D printer print de fijnste ontwerpen in hoog detail. Het ondersteunende materiaal is wateroplosbaar en daardoor eenvoudig en zonder 'littekens' te verwijderen.</p>
 		</div>
 
 		<div id="img2">
 			<img id="service-02" src="./imgs/service-02.jpg">
-			<h1>3D Printen - Print farm</h1>
+			<h1 id="scrolltitle2">3D Printen - Print farm</h1>
 			
-			<p>Onze betrouwbare Ender3 machines zijn in staat in relatief korte tijd grote volumes te printen in een goede kwaliteit.</p>
+			<p id="scrolltext2">Onze betrouwbare Ender3 machines zijn in staat in relatief korte tijd grote volumes te printen in een goede kwaliteit.</p>
 		</div>
 		
 		<!-- <div id="img3">
@@ -277,6 +277,12 @@
 <?= $this->endSection('main') ?>
 
 <?= $this->section('nieuws') ?>
+<div class="nieuws-top">
+	<h1 id="nieuws-title">Nieuws</h1>
+	<hr>
+</div>
+	
+
 <section class="containernieuws">
 	<div class="row">
 		<img src="./imgs/post-01.jpg">

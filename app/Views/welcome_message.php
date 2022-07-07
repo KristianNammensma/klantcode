@@ -192,23 +192,23 @@
 
     <div class="project-items">
         <ul>
-            <li><a href="#All">All</a></li>
-            <li><a href="#3D Design">3D Design</a></li>
-            <li><a href="#Art">Art</a></li>
-            <li><a href="#Electronica">Electronica</a></li>
-            <li><a href="#Laser">Laser</a></li>
+            <li><a id="All" href="#All">All</a></li>
+            <li><a id="Design" href="#3D Design">3D Design</a></li>
+            <li><a id="Art" href="#Art">Art</a></li>
+            <li><a id="Electronica" href="#Electronica">Electronica</a></li>
+            <li><a id="Laser" href="#Laser">Laser</a></li>
         </ul>
     </div>
 
 
 	<div class="project-photos">
-		<img src="./imgs/project-h1-01.jpg" alt="01">
-		<img src="./imgs/project-h1-02.jpg" alt="02">
-		<img src="./imgs/project-h1-03.jpg" alt="03">
-		<img src="./imgs/project-h1-04.jpg" alt="04">
-		<img src="./imgs/project-h1-05.jpg" alt="05">
-		<img src="./imgs/project-h1-06.jpg" alt="06">
-		<img src="./imgs/project-h1-07.jpg" alt="07">
+		<img id="project1" src="./imgs/project-h1-01.jpg" alt="01">
+		<img id="project2" src="./imgs/project-h1-02.jpg" alt="02">
+		<img id="project3" src="./imgs/project-h1-03.jpg" alt="03">
+		<img id="project4" src="./imgs/project-h1-04.jpg" alt="04">
+		<img id="project5" src="./imgs/project-h1-05.jpg" alt="05">
+		<img id="project6" src="./imgs/project-h1-06.jpg" alt="06">
+		<img id="project7" src="./imgs/project-h1-07.jpg" alt="07">
 	</div>
 
 
@@ -360,6 +360,7 @@
 <?= $this->section('script') ?>
 <script src="./JS/scroll.js"></script>
 <script src="./JS/Diensten.js"></script>
+<script src="./JS/projecten.js"></script>
 <?= $this->endSection('script') ?>
 
 

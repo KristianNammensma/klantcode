@@ -282,9 +282,10 @@
 		<img src="./imgs/post-01.jpg">
 		<div class="background">
 			<h1>Expositie Valencia</h1>
-			<p>In de eerste week van april vindt er een expositie plaats in Valencia waar ook stukken van onze studenten worden tentoongesteld</p>
-			<button>
-				Lees meer
+			<p class="date">1 April, 2019</p>
+			<p class="bgtext">In de eerste week van april vindt er een expositie plaats in Valencia waar ook stukken van onze studenten worden tentoongesteld</p>
+			<button class="btn">
+				Lees verder
 			</button>
 		</div>
 	</div>
@@ -292,9 +293,10 @@
 		<img src="./imgs/post-02.jpg">
 		<div class="background">
 			<h1>Circulair Plastic Hub</h1>
-			<p>Het D'Lab gaat zich samen met verschillende partners inzetten voor het ontwikkelen van productiemethodes o.b.v. gerecycled plastic.</p>
-			<button>
-				Lees meer
+			<p class="date">2 April, 2019</p>
+			<p class="bgtext">Het D'Lab gaat zich samen met verschillende partners inzetten voor het ontwikkelen van productiemethodes o.b.v. gerecycled plastic.</p>
+			<button class="btn">
+				Lees verder
 			</button>
 		</div>
 	</div>
@@ -363,6 +365,7 @@
 
 
 <!-- -->
+
 
 
 

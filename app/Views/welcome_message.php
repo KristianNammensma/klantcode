@@ -306,6 +306,17 @@
 			</button>
 		</div>
 	</div>
+	<div class="row">
+		<img src="./imgs/post-02.jpg">
+		<div class="background">
+			<h1></h1>
+			<p class="date"></p>
+			<p class="bgtext"></p>
+			<button class="btn">
+				
+			</button>
+		</div>
+	</div>
 </section>
 <?= $this->endSection('nieuws') ?>
 

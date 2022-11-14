@@ -31,11 +31,11 @@ class Database extends Config
      * @var array
      */
     public $default = [
-        'DSN'      => 'mysql:dbname=portfolio;host=127.0.0.1',
+        'DSN'      => 'mysql:dbname=klant;host=127.0.0.1',
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'database',
+        'database' => 'klant',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => true,

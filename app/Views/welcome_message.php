@@ -306,7 +306,6 @@
 			</button>
 		</div>
 	</div>
-<<<<<<< HEAD
 	<div class="row">
 		<img src="./imgs/post-02.jpg">
 		<div class="background">
@@ -319,57 +318,7 @@
 		</div>
 	</div>
 </section>
-=======
-
->>>>>>> 8def992a4bbb9b7270da47d5f3aaa0aee2c0e69b
 <?= $this->endSection('nieuws') ?>
-
-
-<?= $this->section('rol') ?>
-<div class="column">
-	<div class="one">
-		<h1>
-			Innovatie & Prototyping
-		</h1>
-		<p>
-			Het D'Lab is opgericht om een brug te vormen tussen het bedrijfsleven en het onderwijs. Studenten kunnen hier aan 'echte' innovatieve klantopdrachten werken. Bedrijven hebben hiermee als groot voordeel dat ze via deze weg toegang hebben tot de laaste technieken en methodieken.
-		</p>
-	</div>
-	<div class="two">
-		<h1>
-			Laagdrempelig
-		</h1>
-		<p>
-			Afgezien van de dinsdagmiddag en donderdagmiddag is het de hele week mogelijk om langs te komen. Machine gebruiken? Reserveer dan even via dlabagenda@gmail.com
-		</p>
-	</div>
-	<div class="three">
-		<h1>
-			Nieuwste techieken
-		</h1>
-		<p>
-			Het D'Lab heeft een groot scala aan moderne 'maakmachines'. Mochten we de gevraagde techniek onverhoopt niet in het D'Lab hebben, dan hebben we een rijk netwerk aan partnerbedrijven waar we terecht kunnen.
-		</p>
-	</div>
-	<div class="four">
-		<h1>
-			Design thinking
-		</h1>
-		<p>
-			In het D'Lab werken we aan projecten o.b.v. het z.g.n. Design Thinking. Hierbij wordt uitgegaan van korte iteraties (tijdblokken) waarna elke cyclus opnieuw wordt geevalueerd en wordt bijgestuurd.
-		</p>
-	</div>
-	<div class="five">
-		<h1>
-			Kies ons niet voor
-		</h1>
-		<p>
-			Het D'Lab is een innovatielab en geen 'Copyshop', dat wil zeggen dat wij geen grote volumes draaien. Grote volumes kunnen vaak ook voordeliger ergens anders worden uitgevoerd.
-		</p>
-	</div>
-</div>
-</section>
-<?= $this->endSection('rol') ?>
 
 
 <?= $this->section('footer') ?>

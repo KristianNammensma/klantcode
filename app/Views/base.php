@@ -40,7 +40,8 @@
 				<?= $this->renderSection('threesection') ?> 	
 			</section>
 
-			<?= $this->renderSection('nieuws') ?> 	
+			<?= $this->renderSection('nieuws') ?> 
+			<?= $this->renderSection('rol') ?> 	
 		</main>
 		
 		<footer>			
